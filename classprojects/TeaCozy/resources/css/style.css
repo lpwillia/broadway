@@ -70,7 +70,7 @@ span a {
 	top: 100px;
 }
 
-.month {
+#month {
 	display: flex;
 	position: relative;
 	top: 100px;
@@ -79,7 +79,8 @@ span a {
 	font-family: Helvetica;
 	flex-direction: column;
 	width: 1000px;
-
+	margin: 0 auto;
+	background-image: url("../images/img-locations-background.jpg");
 }
 
 .teamonth, .steeping {
@@ -102,6 +103,7 @@ span a {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
+	justify-content: center;
 }
 
 .image-box {
@@ -114,7 +116,7 @@ span a {
 	top: 100px;
 	color: seashell;
 	flex-direction: column;
-	background-image: url("../images/img-locations-background.jpg");
+
 	justify-content: center;
 	font-family: Helvetica;
 	color: seashell;
@@ -123,4 +125,8 @@ span a {
 
 .headings {
 	font: bold;
+}
+
+h4 {
+	text-align: center;
 }
