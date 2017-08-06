@@ -106,6 +106,21 @@ span a {
 
 .image-box {
 	padding: 10px;
-	display: center;
 }
 
+.footer-container {
+	display: flex;
+	position: relative;
+	top: 100px;
+	color: seashell;
+	flex-direction: column;
+	background-image: url("../images/img-locations-background.jpg");
+	justify-content: center;
+	font-family: Helvetica;
+	color: seashell;
+	opacity: 0.9;
+}
+
+.headings {
+	font: bold;
+}
